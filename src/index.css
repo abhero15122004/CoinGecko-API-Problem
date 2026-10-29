@@ -1,0 +1,29 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #f6f7fb;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  font-family:
+    Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
